@@ -7,9 +7,9 @@ This repository contains a small, deterministic ML demo showing the difference b
 The example uses a synthetic churn dataset and logistic regression to highlight a common issue: Similar model accuracy does not guarantee reproducibility if the underlying data changes.
 
 # Run the Demo
-python -m venv .venv
-.\.venv\Scripts\activate   # Windows
-pip install pandas numpy scikit-learn duckdb
+python -m venv .venv  
+.\.venv\Scripts\activate   # Windows  
+pip install pandas numpy scikit-learn duckdb  
 
 python scripts/run_demo.py
 
